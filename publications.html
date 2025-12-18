@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nickolas Black – Publications</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 32px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li.project {
+            margin-bottom: 30px;
+        }
+
+        li.project a {
+            font-size: 18px;
+            font-weight: bold;
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        li.project a:hover {
+            text-decoration: underline;
+        }
+
+        .description {
+            margin-top: 8px;
+            margin-left: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Nickolas Black – Publications</h1>
+
+    <ul>
+        <li class="project">
+            <li><a href="Foxconn_Technology_Group_Research.pdf" target="_blank">
+                Foxconn Technology Group Quantiative Research
+            </a></li>
+
+            <p class="description">
+                This document presents a comprehensive financial and data-driven analysis of Foxconn Technology Group, 
+                examining its transition from a consumer electronics manufacturer to a contract manufacturer within 
+                the automotive and electric vehicle (EV) industry. 
+
+                Using historical stock price data, the study applies exploratory data analysis, correlation analysis, 
+                feature engineering, machine learning, financial risk management, and trading strategy evaluation to 
+                assess whether Foxconn’s stock behavior aligns more closely with technology firms or automotive manufacturers.
+
+                The analysis begins with an exploratory examination of Foxconn’s Open, High, Low, and Close (OHLC) prices to 
+                identify trends, volatility, and structural shifts over time. Correlation analysis is then performed between 
+                Foxconn and its major technology clients, revealing weak or negative relationships, while stronger correlations 
+                emerge with Asian automotive manufacturers such as Nissan, Honda, and Hyundai. These findings motivate a focused 
+                feature engineering process that isolates automotive-related variables for predictive modeling.
+
+                Normalized closing prices are used to construct supervised machine learning models, including linear regression, 
+                to predict Foxconn’s stock performance based on its automotive partners. The resulting models achieve moderate predictive accuracy, 
+                suggesting that Foxconn’s market behavior increasingly reflects automotive industry dynamics, particularly after 2018.
+
+                Financial risk management techniques are applied to evaluate volatility, daily returns, logarithmic returns, a
+                nd Value at Risk (VaR), providing quantitative insight into the potential downside risk associated with holding
+                Foxconn stock. The analysis indicates reduced volatility over time but continued exposure to significant downside risk, 
+                consistent with the low-margin and cyclical nature of the automotive sector.
+
+                Finally, a dual moving average trading strategy is implemented and backtested to assess the feasibility of technical trading approaches
+                on Foxconn stock. Results show limited profitability, reinforcing the conclusion that Foxconn remains a high-risk investment despite improved stability.
+
+                Overall, this study provides empirical evidence that Foxconn’s strategic shift toward automotive manufacturing has materially
+                altered its stock behavior. While the transition has increased stability and alignment with automotive firms, significant 
+                financial risks remain. The findings highlight the importance of sector-specific dynamics in evaluating corporate transformations 
+                and offer a foundation for future research into supply chain effects, strategic timing, and long-term valuation impacts.
+            </p>
+        </li>
+
+        <li class="project">
+            <a href="Citibike-Data-Project.pdf" target="_blank">
+                Jersey City Citbike Data Science Project
+            </a>
+            <p class="description">
+                This document presents a data-driven analysis of Citi Bike usage in Jersey City using publicly available trip data from the first quarter of
+                2020. Citi Bike operates as a bicycle-sharing system that allows users to purchase either an annual membership or a single-ride pass, granting 
+                up to 45 minutes of bicycle use per rental before additional charges are incurred. With over 600 docking stations across the New York City metropolitan area, 
+                the system provides a flexible and widely accessible transportation option for urban commuters and recreational cyclists.
+
+                The primary objective of this project is to identify patterns in Citi Bike usage across Jersey City neighborhoods. Specifically, the analysis seeks
+                to determine which neighborhoods experience the highest levels of bicycle traffic, estimate the average age of Citi Bike users, identify the top ten venues 
+                located within high-traffic biking areas, and cluster neighborhoods using k-means clustering to uncover structural similarities in usage patterns.
+
+                This project is designed to serve two main audiences: bicycle enthusiasts considering relocation to Jersey City and bicycle-related businesses 
+                seeking strategic locations for advertising and outreach. Demographic analysis of user data provides insight into the characteristics of the
+                Citi Bike user base, enabling advertisers to better target their marketing efforts. Geographic and station-level analysis offers cyclists valuable
+                information about bike availability, popular neighborhoods, and opportunities to engage with other members of the biking community.
+
+                The analysis is conducted using multiple data sources. First, Citi Bike trip metadata from NYC Open Data is used to construct a comprehensive 
+                dataset containing trip duration, start and stop times, station information, geographic coordinates, user type, gender, and year of birth. 
+                Second, neighborhood-level data is enriched using the Foursquare API to identify the most common venues within areas of high Citi Bike traffic.
+
+                Exploratory data analysis reveals several key insights. The average Citi Bike trip in Jersey City lasts approximately 30 minutes, 
+                indicating that most rides are well within the allotted rental window. The presence of very short trips suggests potential noise 
+                in the data, possibly caused by equipment issues or accidental rentals. Demographic analysis shows that the average Citi Bike user 
+                was born in 1979, placing the typical rider at approximately 41 years of age during the study period.
+
+                Finally, clustering techniques are applied to group neighborhoods based on usage intensity and geographic characteristics. 
+                These clusters provide a structured understanding of Citi Bike activity across Jersey City and highlight areas with similar
+                biking behaviors. Overall, this document demonstrates how urban mobility data can be leveraged to inform business decisions,
+                urban planning, and community engagement within shared transportation systems.
+            </p>
+        </li>
+
+     
+    <footer>
+        © 2026 Nickolas Black · Publications Portfolio
+    </footer>
+</div>
+
+</body>
+</html>
